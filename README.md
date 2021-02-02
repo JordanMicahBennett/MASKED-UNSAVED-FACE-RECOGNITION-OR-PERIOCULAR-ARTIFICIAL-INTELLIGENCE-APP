@@ -83,7 +83,9 @@ Other modifications to facilitate the above include modifying the main pyfacy de
 3. Modify the installation files, by copying the files from "GOD_MODIFIED_PYFACY_PYTHON_LIBRARY_FILES" to Python36/Lib/site-packages/pyfacy directory (normally in %AppData%.../Programs/Python36)
 Of the 2 files and folder copied above, you should accept prompts to replace the utils.py file, as well as the face_clust folder content "algorithm.py".
 
-4. Crucially for gaining the ability to do masked face recognition in pyfacy 1.0.1:
+4. a. Crucially, ensure all the files including this repository, are stored in a SHORT directory, WITHOUT spaces.
+
+4. b. Crucially for gaining the ability to do masked face recognition in pyfacy 1.0.1:
 
 * i. Download the [.t7 open face model](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP#a-instructions_user) from my "[MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP).
 
