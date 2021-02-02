@@ -10,7 +10,7 @@ Author: God Bennett ([My legal name was changed from Jordan to God.](https://www
 
 # 1) Introduction
 
-Unlike [my prior artificial intelligence app](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP) that I decided to create because I couldn't find any model that does masked face recognition (given that I would save or train the ai model on the target's face beforehand), this solution does not need to save or be trained on the person to be detected beforehand.
+Unlike [my prior artificial intelligence app](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP) that I decided to create because I couldn't find any ai app that did masked face recognition (given that I would save or train the ai model on the target's face beforehand), this solution does not need to save or be trained on the person in mask beforehand to be detected afterwards.
 
 This artificial intelligence project is a masked face recognition (or periocular recognition) artificial intelligence application, built atop pyfacy, that takes a 128 dimension face embedder [from my earlier ai project](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP).
 
