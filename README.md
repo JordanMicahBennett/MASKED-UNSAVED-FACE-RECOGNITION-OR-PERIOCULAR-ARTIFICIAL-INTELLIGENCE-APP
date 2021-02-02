@@ -3,6 +3,10 @@ Author: God Bennett ([My legal name was changed from Jordan to God.](https://www
 
 ![Alt-Text](https://github.com/JordanMicahBennett/MASKED-UNSAVED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP/blob/main/god_periocular_clustering_summary.png)
 
+# Click on animated image below to zoom!
+
+![Alt-Text](https://github.com/JordanMicahBennett/MASKED-UNSAVED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP/blob/main/Ai%20Masked%20Unsaved%20Face%20Preview.gif)
+
 
 # 1) Introduction
 
