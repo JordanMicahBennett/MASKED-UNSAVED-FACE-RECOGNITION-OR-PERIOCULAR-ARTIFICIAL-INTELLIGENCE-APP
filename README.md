@@ -43,7 +43,7 @@ Both (1) my atm masked face recognition solution "[MASKED-FACE-RECOGNITION-OR-PE
 PART II)
 
 
-However, pyfacy used in Part I (2) does not do masked face computing well out of the box, unlike the project I had configured in (1).
+However, pyfacy used in Part I (2) does not do masked face computing out of the box, unlike the project I had configured in (1).
 
 For example, for the dataset of clustering 2 input identities in this project directory (13 images total), pyfacy fails to produce a resulting output folder of grouped identities.
 
