@@ -1,19 +1,19 @@
 Author: God Bennett ([My legal name was changed from Jordan to God.](https://www.researchgate.net/publication/342328687_Why_I_an_atheist_legally_changed_my_name_to_God))
 
 
-![Alt-Text](https://github.com/JordanMicahBennett/MASKED-UNSAVED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP/blob/main/god_periocular_clustering_summary.png?raw=true)
+![Alt-Text](https://github.com/JordanMicahBennett/MASKED-UNSAVED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP/blob/main/god_periocular_clustering_summary.png)
 
 
 # 1) Introduction
 
-Unlike my prior artificial intelligence app that I decided to create because I couldn't find any model that does masked face recognition (given that I would save or train the ai model on the target's face beforehand), this solution does not need to save or be trained on the person to be detected beforehand.
+Unlike [my prior artificial intelligence app](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP) that I decided to create because I couldn't find any model that does masked face recognition (given that I would save or train the ai model on the target's face beforehand), this solution does not need to save or be trained on the person to be detected beforehand.
 
 This artificial intelligence project is a masked face recognition (or periocular recognition) artificial intelligence application, built atop pyfacy, that takes a 128 dimension face embedder [from my earlier ai project](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP).
 
 * See crucial modifications and addditions (of the original [standard python pyfacy library](https://pypi.org/project/pyfacy/)) by God below in section (2) "God's crucial modifications discussion and results".
 The [original library](https://github.com/ManivannanMurugavel/pyfacy) does not do masked face recognition/clustering. 
 
-* My [earlier masked face recognition ai app](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP)" needed to have to have a person's face saved before-hand, in order to recognize a person afterwards. This current solution does not require a person's face to be known beforehand.
+* My [earlier masked face recognition ai app](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP) needed to have to have a person's face saved before-hand, in order to recognize a person afterwards. This current solution does not require a person's face to be known beforehand.
 
 * The 128 dimensional embedding for masked face recognition was taken from my earlier "[[MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP)" project, and implemented into pyfacy for unsaved face classification.
 
