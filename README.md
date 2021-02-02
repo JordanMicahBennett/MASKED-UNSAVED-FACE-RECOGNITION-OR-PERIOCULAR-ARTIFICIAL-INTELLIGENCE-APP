@@ -15,7 +15,7 @@ The [original library](https://github.com/ManivannanMurugavel/pyfacy) does not d
 
 * My [earlier masked face recognition ai app](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP) needed to have to have a person's face saved before-hand, in order to recognize a person afterwards. This current solution does not require a person's face to be known beforehand.
 
-* The 128 dimensional embedding for masked face recognition was taken from my earlier "[[MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP)" project, and implemented into pyfacy for unsaved face classification.
+* The 128 dimensional embedding for masked face recognition was taken from my earlier "[MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP)" project, and implemented into pyfacy for unsaved face classification.
 
 
 
@@ -30,7 +30,7 @@ The [original library](https://github.com/ManivannanMurugavel/pyfacy) does not d
 
 PART I)
 
-Both (1) my atm masked face recognition solution "[[MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP)" and 
+Both (1) my atm masked face recognition solution "[MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP)" and 
 (2) [my atm masked unsaved face image counting solution](https://github.com/JordanMicahBennett/MASKED-UNSAVED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP), namely using the pyfacy library (which by default is partially usable for the new atm usage count solution), take face images as inputs, and convert them to embeddings aka numerical representations before performing either the task from (1) or (2).
 
 
@@ -46,9 +46,9 @@ with an external function adapted from (1) that generates embeddings of only a p
 
 B) To do (A), since masked processing in (1) worked well, of the 4 python files from (1):
 
-i) [extract_embeddings.py](http://pasi.jncb.com/bennettGQ/ArtificialIntelligence_AtmMaskedFaceRecognition/blob/master/extract_embeddings.py) is duplicated. 
+i) [extract_embeddings.py](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP/blob/main/extract_embeddings.py) is duplicated. 
 
-ii) extract_embeddings.py [is modified to process a single image at a time](http://pasi.jncb.com/bennettGQ/Artificial-Intelligence-Masked-Face-Atm-Usage-Counter/blob/master/GOD_MODIFIED_PYFACY_PYTHON_LIBRARY_FILES/external_extract_embeddings_pyfacy_god.py) (instead of the batch that it does normally), and generate one single embedding.
+ii) extract_embeddings.py [is modified to process a single image at a time](https://github.com/JordanMicahBennett/MASKED-UNSAVED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP/blob/main/GOD_MODIFIED_PYFACY_PYTHON_LIBRARY_FILES/external_extract_embeddings_pyfacy_god.py) (instead of the batch that it does normally), and generate one single embedding.
 
 iii) that duplication is then placed into pyfacy's python root library in site packages, and imported in pyfacy's util python file, which modifies the "load_images_to_clust_encodings" function which takes the embedding discussed in Part II.
 
