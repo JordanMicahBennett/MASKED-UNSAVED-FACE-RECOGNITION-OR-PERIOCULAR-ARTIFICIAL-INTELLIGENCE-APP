@@ -1,25 +1,21 @@
-Author: God Bennett ([My legal name was changed from Jordan to God.](https://www.researchgate.net/publication/342328687_Why_I_an_atheist_legally_changed_my_name_to_God))
-
+Author: God Bennett
 
 ![Alt-Text](http://pasi.jncb.com/bennettGQ/Artificial-Intelligence-Masked-Face-Atm-Usage-Counter/raw/master/god_periocular_clustering_summary.png)
 
 
 # 1) Introduction
 
-Unlike my prior artificial intelligence app that I decided to create because I couldn't find any model that does masked face recognition (given that I would save or train the ai model on the target's face beforehand), this solution does not need to save or be trained on the person to be detected beforehand.
 
-This artificial intelligence project is a masked face recognition (or periocular recognition) artificial intelligence application, built atop pyfacy, that takes a 128 dimension face embedder [from my earlier ai project](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP).
-
-* See crucial modifications and addditions (of the original [standard python pyfacy library](https://pypi.org/project/pyfacy/)) by God below in section (2) "God's crucial modifications discussion and results".
+See crucial modifications and addditions (of the original [standard python pyfacy library](https://pypi.org/project/pyfacy/)) by God below in section (2) "God's crucial modifications discussion and results".
 The [original library](https://github.com/ManivannanMurugavel/pyfacy) does not do masked face recognition/clustering. 
 
-* My [earlier masked face recognition ai app](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP)" needed to have to have a person's face saved before-hand, in order to recognize a person afterwards. This current solution does not require a person's face to be known beforehand.
+My [earlier masked face recognition ai app](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP)" needed to have to have a person's face saved before-hand, in order to recognize a person afterwards. This current solution does not require a person's face to be known beforehand.
 
-* The 128 dimensional embedding for masked face recognition was taken from my earlier "[[MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP)" project, and implemented into pyfacy for unsaved face classification.
+A 128 dimensional embedding for masked face recognition was taken from my earlier "[[MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP)" project, and implemented into pyfacy for unsaved face classification.
 
 
 
-# Example use case: A case in a bank where we don't have the target's face before hand, but we want to count the number of times the person uses the atm, to say flag irregular atm usage count.
+# Example usage
 
 
 
@@ -76,16 +72,6 @@ Other modifications to facilitate the above include modifying the main pyfacy de
 
 3. Modify the installation files, by copying the files from "GOD_MODIFIED_PYFACY_PYTHON_LIBRARY_FILES" to Python36/Lib/site-packages/pyfacy directory (normally in %AppData%.../Programs/Python36)
 Of the 2 files and folder copied above, you should accept prompts to replace the utils.py file, as well as the face_clust folder content "algorithm.py".
-
-4. Crucially for gaining the ability to do masked face recognition in pyfacy 1.0.1:
-
-* i. Download the [.t7 open face model](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP#a-instructions_user) from my "[[MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP).
-
-* ii. Download the [face detection model](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP/tree/main/face_detection_model) from my "[[MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP).
-
-* iii. Place both the folder from (i) and the .t7 file from (iii) in one folder somewhere.
-
-* iv. Modify the parameter of mdl.load_faces in runClusteringTool.py to be the one you created from above.
 
 
 
