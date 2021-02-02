@@ -130,7 +130,7 @@ Result: God has framed the task of identifying multiple atm usages per identity 
 	
 # 6) Components and running the app (basic)
 
-2) LAUNCH_APP.bat - Machine learning/Artificial Intelligence Clustering/Grouping algorithm. 
+2) [LAUNCH_APP.bat](https://github.com/JordanMicahBennett/MASKED-UNSAVED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP/blob/main/LAUNCH_APP.bat) - Machine learning/Artificial Intelligence Clustering/Grouping algorithm. 
 
 [Run LAUNCH_APP.bat. Wait on resulting “output/” directory to be generated. Delete the output directory before running the batch file for other cases. ]
 
@@ -147,7 +147,7 @@ Result: God has framed the task of identifying multiple atm usages per identity 
 
 2) Customized Machine learning/Artificial Intelligence input embedding handler. [This is ran automatically in (3) below]
 
-3) LAUNCH_APP.bat - Machine learning/Artificial Intelligence Clustering/Grouping algorithm. 
+3) [LAUNCH_APP.bat](https://github.com/JordanMicahBennett/MASKED-UNSAVED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP/blob/main/LAUNCH_APP.bat) - Machine learning/Artificial Intelligence Clustering/Grouping algorithm. 
 
 [Run LAUNCH_APP.bat. Wait on resulting “output/” directory to be generated. Delete the output directory before running the batch file for other cases. ]
 
