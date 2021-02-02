@@ -45,7 +45,7 @@ PART II)
 
 However, pyfacy used in Part I (2) does not do masked face computing well out of the box, unlike the project I had configured in (1).
 
-For example, for the dataset of clustering 3 input identities in this project directory (13 images total), pyfacy produces only 2 face clusters, completely ignoring the images for Holness' face with masked images.
+For example, for the dataset of clustering 2 input identities in this project directory (13 images total), pyfacy fails to produce a resulting output folder of grouped identities.
 
 A) This latest machine learning modification of pyfacy (2) by God essentially replaces pyfacy's default face embedding function, 
 with an external function adapted from (1) that generates embeddings of only a portion of the face, which roughly excludes the mask. 
@@ -110,7 +110,7 @@ i) Go to %AppData%.../Programs/Python36/Lib/site-packages/pyfacy/utils.py "load_
 
 ii) If cluster output folder exists in this project dir, delete it.
 
-ii) Run runClusteringTool.py to run the project. Notice only folders for 2 faces are produced in output/, although 3 input identities (13 images total) were supplied. The masked face was not found.
+ii) Run runClusteringTool.py to run the project. Notice that 0 output folder is produced, as the ai fails to detect the identities while in masks.
 
 ----Run God's modification
 
@@ -118,7 +118,7 @@ i) Go to %AppData%.../Programs/Python36/Lib/site-packages/pyfacy/utils.py "load_
 
 ii) If cluster output folder exists in this project dir, delete it.
 
-ii) Run runClusteringTool.py to run the project. Notice folders for all 3 faces are produced in output/, correlating correctly with 3 input identities supplied in dataset. The masked face was successfully found.
+ii) Run runClusteringTool.py to run the project. Notice 2 folders for all 2 faces/identities are produced in output/, correlating correctly with 2 input identities supplied in dataset. The masked faces were successfully found.
 
 
 
