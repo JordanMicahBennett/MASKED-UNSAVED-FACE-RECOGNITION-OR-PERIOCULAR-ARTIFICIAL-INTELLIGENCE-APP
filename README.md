@@ -14,7 +14,7 @@ Unlike [my prior artificial intelligence app](https://github.com/JordanMicahBenn
 
 This artificial intelligence project is a masked face recognition (or periocular recognition) artificial intelligence application, built atop pyfacy, that takes a 128 dimension face embedder [from my earlier ai project](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP).
 
-This solution was also created last year in November 2020, shortly after [the first solution](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP), and now the code public here.
+This solution was also created in aout 3 hours last year in November 2020, shortly after [the first solution](https://github.com/JordanMicahBennett/MASKED-FACE-RECOGNITION-OR-PERIOCULAR-ARTIFICIAL-INTELLIGENCE-APP), and now the code public here.
 
 * See crucial modifications and addditions (of the original [standard python pyfacy library](https://pypi.org/project/pyfacy/)) by God below in section (2) "God's crucial modifications discussion and results".
 The [original library](https://github.com/ManivannanMurugavel/pyfacy) does not do masked face recognition/clustering. 
@@ -159,5 +159,9 @@ Result: God has framed the task of identifying multiple atm usages per identity 
 
 	
 # Suggested Training Data
-See [the famous Masked Dataset paper](https://arxiv.org/abs/2003.09093), that unfortunately doesn't provide a solution/code, but it does provide a gigabytes of data for training. Neither of my solutions use this currently, and both could reasonably benefit from the aforementioned training set. There are also solutions for creating masked data available across the web.
+
+See [the famous Masked Dataset paper](https://arxiv.org/abs/2003.09093), that unfortunately doesn't provide a solution/code, but it does provide gigabytes of data for training. 
+
+Neither of my solutions use this currently, and both could reasonably benefit from the aforementioned training set. There are also solutions for creating masked data available across the web.
+	
 	
