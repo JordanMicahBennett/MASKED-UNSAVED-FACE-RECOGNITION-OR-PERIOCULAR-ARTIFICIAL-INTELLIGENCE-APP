@@ -19,7 +19,7 @@ The [original library](https://github.com/ManivannanMurugavel/pyfacy) does not d
 
 
 
-# Example use case: A case in a bank where we don't have the target's face before hand, but we want to count the number of times the person uses the atm, to say flag irregular atm usage count.
+# Example use case: Example use case: A case in a bank where we don't have the target's face before hand, but we want to count the number of times the person uses the atm, to for eg flag irregular atm usage count.
 
 
 
